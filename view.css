@@ -1,0 +1,478 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+#wrapper{
+
+    min-height: 5800px;
+    min-width: 800px ;
+}
+#all{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+/*------------------------------------- Основна частина----------------------------------------------*/
+#part-1{
+    position: relative;
+    left: 0;
+    top: 0;
+   height: 1600px;
+    width: 100%;
+
+
+}
+#part-1-1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image:url("picture/scene-1.svg");
+    background-size: 1600px auto;
+    background-position: 50% ;
+
+}
+#part-2{
+    margin-top: -20px;
+    position: relative;
+    height: 768px;
+    width: 100%;
+    background-image:url("picture/scene-2.svg");
+    background-size:  auto 768px;
+    background-position: 50%;
+
+}
+#part-3{
+    margin-top: -20px;
+    height: 768px;
+    width: 100%;
+    background-image:url("picture/scene-3.svg");
+    background-size:  auto 768px;
+    background-position: 50%;
+}
+#part-4{
+    margin-top: -2px;
+    height: 768px;
+    width: 100%;
+    background-image:url("picture/scene-4.svg");
+    background-size:  auto 768px;
+    background-position: 50%;
+}
+#part-5{
+    margin-top: -20px;
+    height: 768px;
+    width: 100%;
+    background-image: url("picture/scene-5.svg");
+    background-size:  auto 768px;
+    background-position: 50%;
+}
+#part-6{
+    height: 1300px;
+    background-color: #96DFFB;
+
+}
+#title-1{
+    position: relative;
+    margin: auto;
+    padding-top: 150px;
+    height: 70px;
+    width: 70px
+
+}
+#title-2{
+    position: relative;
+    margin: auto;
+    padding-top: 15px;
+    height: 30px;
+    width: 125px
+}
+.text-main{
+
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    font-family: circular, sans-serif;
+}
+p {font-size: 20px;}
+
+.text-1{
+    padding-top: 40px;
+    width: 150px;
+}
+.text-1-big{
+    font-weight: 600;
+    font-size: 16px;
+}
+.text-1-big span{
+    font-weight: 500;
+}
+
+.text-1-small{
+    font-size: 11px !important;
+    font-weight: 300;
+}
+
+.text-2{
+
+    bottom: 0px;
+    padding-top: 600px;
+    width: 250px;
+    font-weight: 600;
+}
+
+
+
+.text-2-small{
+    font-size: 13px !important;
+    font-weight: 300;
+
+}
+.text-1-2{
+    padding-top: 840px;
+}
+.text-3{
+    width: 250px;
+    font-weight: 600;
+    padding-top: 580px;
+}
+
+.text-4{
+    width: 250px;
+    font-weight: 600;
+    padding-top: 570px;
+}
+
+.text-5{
+    width: 250px;
+    font-weight: 600;
+    padding-top: 550px;
+}
+
+.text-6{
+    width: 280px;
+    font-weight: 600;
+    padding-top: 670px;
+}
+
+/*-------------------------------- Анімаційна частина -------------------------------------------    */
+
+#items{
+  display: block;
+  position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+
+}
+.coffee-bean{
+    position: relative;
+    z-index: 10;
+    margin:  0 auto;
+    top: 530px;
+    height: 100px;
+    width: 70px;
+}
+.grinder-1{
+    position: absolute;
+    margin: auto;
+    z-index: 11;
+    width: 100%;
+    height: 500px;
+    top: 1700px;
+
+
+}
+.grinder{
+    position: relative;
+    margin: auto;
+    top: 0px;
+    height: 340px;
+    width: 220px;
+}
+.g-handle1{
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 260px;
+}
+.g-handle{
+    position: absolute;
+    z-index: 11;
+    top: -155px;
+    height: 260px;
+    width: 260px;
+}
+
+.coffee-ground{
+    position: fixed;
+    z-index: 4;
+opacity: 0;
+    height: 300px;
+    width: 60px;
+
+
+}
+.ground-coffee{
+    width: 20px;
+    height: 20px;
+}
+.ground-coffee-1{
+    margin-left: 13px;
+    margin-bottom: 5px;
+
+}
+.ground-coffee-2{
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+.ground-coffee-3{
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+.ground-coffee-4{
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+.ground-coffee-5{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.ground-coffee-6{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.ground-coffee-7{
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.filter{
+    position: absolute;
+    top: 2700px;
+    height: 120px;
+    width: 200px;
+    left: 50%;
+    opacity: 1;
+
+}
+.foreground{
+    background-image: url("picture/coffee-filter.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 20;
+    opacity: 0.5;
+
+}
+.background{
+    background-image: url("picture/coffee-filter.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 5;
+}
+.filter2{
+    position: absolute;
+    top: 2700px;
+    height: 120px;
+    width: 200px;
+
+}
+.foreground2{
+    background-image: url("picture/coffee-filter.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+}
+.coffee-in-filter{
+    position: relative;
+    z-index: 12;
+    height: 100%;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.ground-filter-1{
+    top:57px;
+margin-left: 13px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-2{
+    top:74px;
+    margin-left: 22px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-3{
+    top:74px;
+    margin-left: 7px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-4{
+    top:92px;
+    margin-left: 45px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-5{
+    top:92px;
+    margin-left: 0px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-6{
+    top:92px;
+    margin-left: 30px;
+    position: absolute;
+    opacity: 0;
+}
+.ground-filter-7{
+    top:92px;
+    margin-left: 15px;
+    position: absolute;
+    opacity: 0;
+}
+.show1 {
+    opacity: 1 !important;
+}
+.hide1 {
+   opacity: 0 !important;
+}
+.hide2{
+    z-index: 0 !important;
+    visibility: hidden;
+}
+.main-dripper{
+    position: absolute;
+    margin-left: 14px;
+    top: 3350px;
+    height: 290px;
+    width: 200px;
+    z-index: 10;
+    transform-origin: 50% 30%;
+}
+.dripper1{
+    background-image: url("picture/empty-dripper.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    height: 290px;
+    width: 200px;
+    z-index: 10;
+   }
+.filter-inside{
+    position: absolute;
+    top: -50px;
+    height: 120px;
+    width: 200px;
+    left: -15px;
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+
+}
+.coffee-in-pot{
+    position: absolute;
+    height: 160px;
+    width: 180px;
+    bottom: 15px;
+    z-index: 10;
+}
+.st13{
+    opacity: 0.3;
+
+}
+.coffee-trail{
+    position: absolute;
+    top: 3440px;
+    height: 1000px;
+    width: 100px;
+
+}
+.cup-container{
+position: absolute;
+    height: 130px;
+    width: 200px;
+    top: 4243px;
+
+}
+.cup{
+    position: absolute;
+    height: 130px;
+    width: 200px;
+left:5px;
+}
+.cup-inside{
+    background-image: url("picture/cup.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    height: 130px;
+    width: 200px;
+    z-index: 20;
+}
+.wave{
+    background-image: url("picture/wave.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    height: 100px;
+    width: 200px;
+    z-index: 19;
+}
+
+/*-------------------------------- Захований текст -------------------------------------------    */
+
+
+.hide-text{
+    display: block;
+    position: fixed;;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.in{
+    z-index: 1000 !important;
+
+
+}
+.hide-text button{
+height: 35px;
+    width: 75px;
+   background-color: #f2f2f2;
+    border: 1px  #f2f2f2;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.inf-text{
+    display: table;
+    padding: 10%;
+    font-size: 25px;
+}
+
+
+#singUp{
+   margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    z-index: 40;
+}
