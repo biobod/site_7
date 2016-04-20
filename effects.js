@@ -71,7 +71,7 @@ function handleRotate (){
 
 
 }
-// падение молотых зерен
+// падіння молотих зерен
 function groundCoffee(){
     var items = document.getElementById("items");
     var coffeeGround = items.querySelector('.coffee-ground');
@@ -302,6 +302,5 @@ clickUncor();
 
 function hideElem (event){
    event.currentTarget.parentElement.classList.remove('in');
-
 
 }

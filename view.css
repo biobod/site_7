@@ -445,14 +445,12 @@ left:5px;
     background-color: black;
     color: white;
     text-align: center;
-
 }
 
 .in{
     z-index: 1000 !important;
-
-
 }
+
 .hide-text button{
 height: 35px;
     width: 75px;
@@ -463,12 +461,12 @@ height: 35px;
     font-weight: 700;
     cursor: pointer;
 }
+
 .inf-text{
     display: table;
     padding: 10%;
     font-size: 25px;
 }
-
 
 #singUp{
    margin: 0 auto;
